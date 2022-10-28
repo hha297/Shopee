@@ -115,7 +115,7 @@
     justify-content: space-between;
 }
 
-.header__qr-link:nth-child(1) {
+.header__qr-link:first-child {
     margin-left: 12px;
 }
 
@@ -124,7 +124,7 @@
 }
 
 .header__qr-download-img {
-    height: 18px;
+    height: 15px;
 
 }
 
