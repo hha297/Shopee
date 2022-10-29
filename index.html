@@ -126,6 +126,44 @@
                             <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
                         </ul>
                     </nav>
+
+                    <!-- Search header -->
+                    <div class="header-with-search">
+                        <div class="header__logo">
+                            <a href="https://shopee.vn/">
+                                <img src="./assets/img/shopee.png" alt="Shopee" class="header__logo-img">
+                            </a>
+                        
+                        </div>
+
+                        <div class="header__search">
+                            <input type="text" class="header__search-input" placeholder="Search products">
+                            <div class="header__search-select">
+                                <span class="header__search-select-label">In stock</span>  
+                                <i class="header__search-select-icon fa-solid fa-angle-down"></i>
+                            
+                                <ul class="header__search-option">
+                                    <li class="header__search-option-item header__search-option-item--active">
+                                        <span>In stock</span>
+                                        <i class="fa-solid fa-check"></i>
+                                    </li>
+
+                                    <li class="header__search-option-item">
+                                        <span>Outlet</span>
+                                        <i class="fa-solid fa-check"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <button class="header__search-btn">
+                                <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+
+                        <div class="header__category">
+                            <i class="header__category-icon fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
                 </div>
                 
             </header>
@@ -140,14 +178,15 @@
         </div>
 
         <!-- Modal Layout -->
-        <div class="modal">
+        <!-- <div class="modal">
             <div class="modal__overlay">
 
             </div>
-            <div class="modal__body">
-                <div class="modal__inner">
-                    <!-- Form Login/Register -->
-                    <div class="auth-form">
+            <div class="modal__body"> -->
+                <!-- Register Form-->
+                <!-- <div class="auth-form">
+
+                    <div class="auth-form__container">
                         <div class="auth-form__header">
                             <h3 class="auth-form__heading">Register</h3>
                             <span class="auth-form__switch-btn">Login</span>
@@ -167,31 +206,85 @@
                         </div>
 
                         <div class="auth-form__aside">
-                            <p class="auth-form__policy-text">
-                                I agree to the
-                                <a href="" class="auth-form__policy-link">Term of Service</a> &
-                                <a href="" class="auth-form__policy-link">Privacy Policy</a>
-                            </p>
+                            <div class="auth-form__policy-agreement">
+                                <input type="checkbox" class="auth-form__checkbox" id="auth-form__check">
+                                <p class="auth-form__policy-text">
+                                    I agree to the
+                                    <a href="" class="auth-form__text-link">Term of Service</a> &
+                                    <a href="" class="auth-form__text-link">Privacy Policy</a>
+                                </p>
+                            </div>
                         </div>
 
-                        <div class="auth-form__controls">
-                            <button class="btn">BACK</button>
-                            <button class="btn btn--primary">REGISTER</button>
+                        <div class="auth-form__control">
+                            <button class="btn btn--normal auth-form__control-back">BACK</button>
+                            <button class="btn btn--normal btn--primary">REGISTER</button>
                         </div>   
-
-                        <div class="auth-form__socials">
-                            <a href="" class="btn btn--with-icon">
-                                <i class="fa-brands fa-square-facebook"></i>
-                                Register with Facebook
-                            </a>
-
-                            <a href="" class="btn btn--with-icon">
-                                <i class="fa-brands fa-google"></i>
-                                Register with Google
-                            </a>
-                        </div>
                     </div>
-                </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fa-brands fa-square-facebook"></i>
+                            <span class="auth-form__socials-label">
+                                Register with Facebook
+                            </span>
+                        </a>
+
+                        <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fa-brands fa-google"></i>
+                            <span class="auth-form__socials-label">
+                                Register with Google
+                            </span>
+                        </a>
+                    </div>
+                </div> -->
+                
+                <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Login</h3>
+                            <span class="auth-form__switch-btn">Register</span>
+                        </div>
+
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Username">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Password">
+                            </div>
+                        </div>
+
+                        <div class="auth-form__aside">
+                            <div class="auth-form__help">
+                                <a href="" class="auth-form__help-link auth-form__help-forgot">Forgot password</a>
+                                <span class="auth-form__help-separate"></span>
+                                <a href="" class="auth-form__help-link">Need help?</a>
+                            </div>
+                        </div>
+
+                        <div class="auth-form__control">
+                            <button class="btn btn--normal auth-form__control-back">BACK</button>
+                            <button class="btn btn--normal btn--primary">LOGIN</button>
+                        </div>   
+                    </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fa-brands fa-square-facebook"></i>
+                            <span class="auth-form__socials-label">
+                                Login with Facebook
+                            </span>
+                        </a>
+
+                        <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fa-brands fa-google"></i>
+                            <span class="auth-form__socials-label">
+                                Login with Google
+                            </span>
+                        </a>
+                    </div>
+                </div> -->
             </div>
         </div>
     </body>

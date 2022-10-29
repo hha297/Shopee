@@ -3,7 +3,11 @@
     --black-color: #000;
     --text-color: #333;
     --primary-color: #EE4D2D;
+    --border-color: #bdbdbd;
     /* --primary-color-rgba: rgba(238, 75, 43, 0.1); */
+    --header-height: 120px;
+    --navbar-height: 34px;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
 }
 
 * {
@@ -42,6 +46,15 @@ html {
     }
 }
 
+@keyframes growth {
+    from {
+        transform: scale(var(--growth-from));
+    }
+    tp {
+        transform: scale(var(--growth-to));
+    }
+}
+
 /* Modal */
 .modal {
     position: fixed;
@@ -50,6 +63,7 @@ html {
     bottom: 0;
     left: 0;
     display: flex;
+    animation: fadeIn linear 0.2s;
 }
 
 .modal__overlay {
@@ -60,12 +74,55 @@ html {
 }
 
 .modal__body {
-    width: 400px;
-    height: 400px;
-    background-color: var(--white-color);
+    --growth-from: 0.5;
+    --growth-to: 1;
     margin: auto;
     position: relative;
     z-index: 1;
-    border-radius: 5px;
+    animation: growth linear 0.2s;
 
+}
+
+/* Button */
+.btn {
+    height: 36px;
+    min-width: 140px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.4rem;
+    padding: 0 12px;
+    outline: none;
+    cursor: pointer;
+    color: var(--text-color);
+    background-color: rgba(250, 250, 250, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn.btn--normal:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn.btn--size-s {
+    height: 30px;
+    font-size: 1.1rem;
+    padding: 0 8px;
+}
+
+.btn.btn--primary {
+    color: var(--white-color);
+    background-color: rgb(255, 100, 5);
+}
+
+.btn.btn--primary:hover {
+    background-color: var(--primary-color);
+}
+
+.btn.btn--disabled {
+    color: #949494;
+    cursor: default;
+    background: #c3c3c3;
 }
