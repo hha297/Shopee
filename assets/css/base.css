@@ -2,6 +2,8 @@
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
+    --primary-color: #EE4D2D;
+    /* --primary-color-rgba: rgba(238, 75, 43, 0.1); */
 }
 
 * {
@@ -38,4 +40,32 @@ html {
     tp {
         opacity: 1;
     }
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+
+.modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal__body {
+    width: 400px;
+    height: 400px;
+    background-color: var(--white-color);
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+
 }
