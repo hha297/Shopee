@@ -65,7 +65,7 @@
                                             <a href="" class="header__notify-link">
                                                 <img src="https://cdn.shopify.com/s/files/1/0252/7490/8726/files/img3.png?v=1656744300" alt="" class="header__notify-img">
                                                 <div class="header__notify-info">
-                                                    <span class="header__notify-name">Messi Hoodies & T-shirt Messi Hoodies & T-shirt Messi Hoodies & T-shirt</span>
+                                                    <span class="header__notify-name"> Messi Hoodies & T-shirt</span>
                                                     <span class="header__notify-description">The best hoodie & t-shirt duo: The Chenille Patch Lion Hoodie & T-Shirt. These items were produced in  limited quantities - once they sell out, they will not be restocked.</span>
                                                 </div>
                                             </a>
@@ -137,7 +137,21 @@
                         </div>
 
                         <div class="header__search">
-                            <input type="text" class="header__search-input" placeholder="Search products">
+                            <div class="header__search-input-wrap">
+                                <input type="text" class="header__search-input" placeholder="Search products">
+                                <!-- Search History -->
+                                <div class="header__search-history">
+                                    <h3 class="header__search-history-heading">Search history</h3>
+                                    <ul class="header__search-history-list">
+                                        <li class="header__search-history-item">
+                                            <a href="">Messi T-Shirt</a>
+                                        </li>
+                                        <li class="header__search-history-item">
+                                            <a href="">Messi Hoodies</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                             <div class="header__search-select">
                                 <span class="header__search-select-label">In stock</span>  
                                 <i class="header__search-select-icon fa-solid fa-angle-down"></i>
@@ -160,8 +174,18 @@
                             </button>
                         </div>
 
-                        <div class="header__category">
-                            <i class="header__category-icon fa-solid fa-cart-shopping"></i>
+                        <!-- Cart Layout -->
+                        <div class="header__cart">
+                            <div class="header__cart-wrap">
+                                <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                                <div class="header__cart-list header__cart-list--empty-cart">
+                                    <img src="./assets/img/empty-cart.png" alt="" class="header__card-empty-card-img">
+                                    <span class="header__cart-list-empty-cart-msg">
+                                        Empty cart
+                                    </span>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
