@@ -13,12 +13,99 @@
     list-style: none;
     padding-left: 0;
     margin-top: -1px;
+    display: flex;
 }
 
 .header__navbar-item {
     margin: 8px 8px 8px 8px;
     position: relative;
     min-height: 30px;
+}
+
+.header__navbar-user {
+    display: flex;
+    justify-items: center;
+    position: relative;
+
+}
+
+.header__navbar-user-img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.header__navbar-user-name {
+    margin-left: 8px;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.header__navbar-user-menu {
+    position: absolute;
+    z-index: 1;
+    padding: 0 0;
+    top: calc(100% + 4px);
+    right: 0;
+    width: 160px;
+    height: auto;
+    background-color: var(--white-color);
+    border-radius: 2px;
+    list-style: none;
+    box-shadow: 0 1px 2px #e0e0e0;
+    display: none;
+}
+
+.header__navbar-user:hover .header__navbar-user-menu {
+    display: block;
+}
+
+.header__navbar-user-menu::before {
+    content: "";
+    border: 20px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    position: absolute;
+    right: 4px;
+    top: -28px;
+    z-index: -1;
+}
+
+.header__navbar-user-menu::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -8px;
+    right: 0;
+    width: 100%;
+    height: 12px;
+    
+}
+
+.header__navbar-user-menu a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.8rem;
+    display: block;
+    padding: 16px 16px;
+}
+
+.header__navbar-user-menu a:first-child {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.header__navbar-user-menu a:last-child {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.header__navbar-user-item {
+    
+}
+
+.header__navbar-user-menu a:hover {
+    background-color: #eaeaea;
 }
 
 .header__navbar-item--has-qr:hover .header__qr {
@@ -202,7 +289,7 @@
 
 .header__notify-item {
     display: flex;
-    flex: 2;
+    
 }
 
 .header__notify-item:hover {
@@ -483,6 +570,7 @@ input[type="checkbox"]:checked {
     /* display: none; */
     animation: fadeIn ease-in 0.2s;
     cursor: default;
+    display: none;
 }
 
 .header__cart-list::after {
