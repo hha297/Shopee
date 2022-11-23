@@ -38,7 +38,7 @@
 
 .header__navbar-user-name {
     margin-left: 8px;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-weight: 400;
 }
 
@@ -86,7 +86,7 @@
 .header__navbar-user-menu a {
     text-decoration: none;
     color: var(--text-color);
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     display: block;
     padding: 16px 16px;
 }
@@ -128,7 +128,7 @@
 .header__navbar-item, 
 .header__navbar-item-link {
     display: inline-block;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: var(--white-color);
     text-decoration: none;
     font-weight: 0;
@@ -160,7 +160,7 @@
 }
 
 .header__navbar-icon {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     margin: 0 4px;
 }
 
@@ -278,7 +278,7 @@
     color: #999;
     margin: 0 0 0 12px;
     font-weight: 400;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     line-height: 40px;
     user-select: none;
 }
@@ -323,7 +323,7 @@
 
 .header__notify-name {
     display: block;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: var(--text-color);
     font-weight: 400;
     margin-bottom: 4px;
@@ -347,7 +347,7 @@
     color: var(--text-color);
     width: 100%;
     padding: 8px 0;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-weight: 500;
     text-align: center;
 }
@@ -606,7 +606,7 @@ input[type="checkbox"]:checked {
 
 .header__cart-list-empty-cart-msg {
     display: none;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     margin-top: 28px;
     color: var(--text-color);
     cursor: text;
@@ -617,7 +617,7 @@ input[type="checkbox"]:checked {
     padding: 1px 8px;
     background-color: var(--white-color);
     color: var(--primary-color);
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     line-height: 1.6rem;
     border-radius: 50%;
     top: -10px;
@@ -628,7 +628,7 @@ input[type="checkbox"]:checked {
 .header__cart-heading {
     text-align: left;
     margin: 8px 0 0px 12px;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: rgb(180, 180, 180);
     font-weight: 400;
 }
@@ -667,7 +667,7 @@ input[type="checkbox"]:checked {
 }
 
 .header__cart-item-name {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-weight: 500;
     margin: 0;
 }
@@ -677,7 +677,7 @@ input[type="checkbox"]:checked {
 } */
 
 .header__cart-item-price {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: var(--primary-color);
 }
 
@@ -688,7 +688,7 @@ input[type="checkbox"]:checked {
 }
 
 .header__cart-item-quantity {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: #757575;
 }
 
@@ -733,7 +733,7 @@ input[type="checkbox"]:checked {
     border-radius: 4px;
     border:none;
     outline: none;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: var(--text-color);
     padding: 0 12px;
 }
@@ -746,7 +746,7 @@ input[type="checkbox"]:checked {
 }
 
 .header__search-select-label {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: var(--text-color);
     padding: 10px 4px;
     cursor: pointer;
@@ -754,7 +754,7 @@ input[type="checkbox"]:checked {
 
 
 .header__search-select-icon {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: #4a4a4a;
     margin: 0 12px 0 4px;
 }
@@ -830,14 +830,14 @@ input[type="checkbox"]:checked {
 }
 
 .header__search-option-item span {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: var(--text-color);
     margin-left: 8px;
     margin-right: 4px;
 }
 
 .header__search-option-item i {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: var(--primary-color);
     margin: 0 2px 0 4px;
     display: none;
@@ -866,7 +866,7 @@ input[type="checkbox"]:checked {
 
 .header__search-history-heading {
     margin: 8px 12px;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: #999;
     font-weight: 400;
 }
@@ -894,7 +894,7 @@ input[type="checkbox"]:checked {
 
 .header__search-history-item a {
     text-decoration: none;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: var(--text-color);
     line-height: 38px;
     display: block;
