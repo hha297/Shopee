@@ -163,6 +163,7 @@ html {
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
+    z-index: 1;
 
 }
 
