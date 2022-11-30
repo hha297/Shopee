@@ -1135,7 +1135,7 @@ input[type="checkbox"]:checked {
     line-height: 1.8rem;
     height: 3.6rem;
     overflow: hidden;
-    margin: 0 12px;
+    margin: 8px 12px;
     display: block;
     display: -webkit-box;
     -webkit-box-orient: vertical;
@@ -1154,14 +1154,16 @@ input[type="checkbox"]:checked {
     font-size: 1.3rem;
     color: #666;
     margin-left: 12px;
-    margin-top: 8px;
+    margin-top: 4px;
+    margin-right: -4px;
     text-decoration: line-through;
 }
 
 .home-product-item__price-current {
     font-size: 1.6rem;
     color: var(--primary-color);
-    margin-left: 6px;
+    margin-left: 12px;
+    margin-top: 4px;
 }
 
 .home-product-item__action {
@@ -1180,6 +1182,10 @@ input[type="checkbox"]:checked {
 
 .home-product-item__like--liked .home-product-item__like-icon-empty {
     display: none;
+}
+
+i.home-product-item__like-icon--dislike {
+    color: #ccc;
 }
 
 i.home-product-item__like-icon-fill {
