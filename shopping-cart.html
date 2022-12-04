@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="icon" href="./assets/img/shopee-logo.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/shopping-cart.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                            Download
+                            <div class="header__qr">
+                                <img src="./assets/img/qr-code.png" alt="QR Code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/google-play-icon.png" alt="Google Play" class="header__qr-download-img">
+                                    </a>
+                                    
+                                    <a href="" class="header__qr-link">
+                                        <img src="./assets/img/app-store-icon.png" alt="App Store" class="header__qr-download-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title--no-pointer">
+                                Follow us on
+                            </span> 
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                            </a>
+
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                            </a>
+                            
+                        </li>
+                    </ul>
+
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-notification">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-regular fa-bell"></i>
+                                Notifications
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Newest notifications</h3>
+                                </header>
+
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cdn.shopify.com/s/files/1/0252/7490/8726/files/img3.png?v=1656744300" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name"> Messi Hoodies & T-shirt</span>
+                                                <span class="header__notify-description">The best hoodie & t-shirt duo: The Chenille Patch Lion Hoodie & T-Shirt. These items were produced in limited quantities - once they sell out, they will not be restocked.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cf.shopee.vn/file/e12eae730bc45fbf438d83f954d5791d" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Natus Vincere 2023 Jersey</span>
+                                                <span class="header__notify-description">Official Natus Vincere 2023 jersey - NAVI. Please inbox the shop for more specific size advice. Commit to refund, exchange if the product is defective due to manufacturing.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cdn.shopify.com/s/files/1/0252/7490/8726/products/Untitleddesign_1800x1800.jpg?v=1663337983" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Messi Hoodies & T-shirt</span>
+                                                <span class="header__notify-description">The best hoodie & t-shirt duo: The Chenille Patch Lion Hoodie & T-Shirt. These items were produced in limited quantities - once they sell out, they will not be restocked.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cdn.shopify.com/s/files/1/0252/7490/8726/products/SignatureStripe_1800x1800.png?v=1648062548" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Messi Hoodies & T-shirt</span>
+                                                <span class="header__notify-description">The best hoodie & t-shirt duo: The Chenille Patch Lion Hoodie & T-Shirt. These items were produced in limited quantities - once they sell out, they will not be restocked.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://cdn.shopify.com/s/files/1/0252/7490/8726/products/2021-12-MESSIG-FBPost-M10Rugby_1800x1800.jpg?v=1648063029" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Messi Hoodies & T-shirt</span>
+                                                <span class="header__notify-description">The best hoodie & t-shirt duo: The Chenille Patch Lion Hoodie & T-Shirt. These items were produced in limited quantities - once they sell out, they will not be restocked.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">See all notifications</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-regular fa-circle-question"></i>
+                                Need helps?
+                            </a>
+                        </li>
+                        <!-- <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Sign up</li>
+                        <li class="header__navbar-item header__navbar-item--strong">Login</li> -->
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="./assets/img/avatar-icon.jpg" alt="" class="header__navbar-user-img">
+                            <span class="header__navbar-user-name">Dang Hoang Ha</span>
+
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="">My Account</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">My Purchase</a>
+                                </li>
+                                <li class="header__navbar-user-item header__navbar-user-item--separate">
+                                    <a href="">Logout</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Search header -->
+                <div class="header-with-search">
+                    <div class="header__logo--padding">
+                        <a href="/" class="header__logo-link">
+                            <img src="./assets/img/shopee.png" alt="Shopee" class="header__logo-img">
+                        </a>
+                        <p>Cart</p>
+                    </div>
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Search products">
+                            <!-- Search History -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Search history</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Messi T-Shirt</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Messi Hoodies</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+
+                    
+                </div>
+            </div>
+            
+        </header>
+
+        <div class="app__container">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="cart-information">
+                        <input type="checkbox" name="" id="cart--choose-product">
+                        <ul class="cart-information__list">
+                            <li class="cart-information__item">Products</li>
+                            <div class="cart-information__product">
+
+                                <li class="cart-information__item">Price</li>
+                                <li class="cart-information__item">Quantity</li>
+                                <li class="cart-information__item">Total</li>
+                                <li class="cart-information__item">Manipulation</li>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="cart-product-information">
+                        <div class="cart-product__seller-information">
+                            <input type="checkbox" name="" id="cart--choose-product">
+                            <div class="cart-product__favourite-badge">Favourite+</div>
+                            <i class="fa-solid fa-shop"></i>
+                            <span class="cart-product__seller-name">The Messi Store
+                            </span>
+                            <i class="fa-solid fa-comments"></i>
+                            
+                        </div>
+                    </div>
+                    <div class="cart-product__detail-information">
+                        <input type="checkbox" name="" id="cart--choose-product">
+                        <img src="https://cdn.shopify.com/s/files/1/0252/7490/8726/products/SignatureStripe_1800x1800.png?v=1648062548" alt="" class="cart-product__img">
+                        <h2 class="cart-product__name">Messi Hoodies & T-Shirt</h2>
+                        <div class="cart-product__catogize">Category: 
+                            <span>Gray, XL</span>
+                        </div>
+                        <div class="cart-product__price">€24.06</div>
+                        <div class="cart-product__quantity">
+                            <button class="cart-product__quantity-edit">-</button>
+                            <input type="text" name="" id="" class="cart-product__number" placeholder="1">
+                            <button class="cart-product__quantity-edit">+</button>
+                        </div>  
+                        <div class="cart-product__total">€24.06</div>
+                        <div class="cart-product__action">
+                            <span class="cart-product__delete">Delete</span>
+                            <a href="" class="cart-product--search-similar">Find Similar Products</a>
+                        </div>
+                    </div>
+                    <div class="cart-product-information">
+                        <div class="cart-product__seller-information">
+                            <input type="checkbox" name="" id="cart--choose-product">
+                            <div class="cart-product__favourite-badge">Favourite+</div>
+                            <i class="fa-solid fa-shop"></i>
+                            <span class="cart-product__seller-name">The Messi Store
+                            </span>
+                            <i class="fa-solid fa-comments"></i>
+                            
+                        </div>
+                    </div>
+                    <div class="cart-product__detail-information">
+                        <input type="checkbox" name="" id="cart--choose-product">
+                        <img src="https://cdn.shopify.com/s/files/1/0252/7490/8726/products/2021-12-MESSIG-FBPost-M10Rugby_1800x1800.jpg?v=1648063029" alt="" class="cart-product__img">
+                        <h2 class="cart-product__name">Messi Hoodies & T-Shirt</h2>
+                        <div class="cart-product__catogize">Category: 
+                            <span>Blue, L</span>
+                        </div>
+                        <div class="cart-product__price">€19.87</div>
+                        <div class="cart-product__quantity">
+                            <button class="cart-product__quantity-edit">-</button>
+                            <input type="text" name="" id="" class="cart-product__number" placeholder="1">
+                            <button class="cart-product__quantity-edit">+</button>
+                        </div>  
+                        <div class="cart-product__total">€19.87</div>
+                        <div class="cart-product__action">
+                            <span class="cart-product__delete">Delete</span>
+                            <a href="" class="cart-product--search-similar">Find Similar Products</a>
+                        </div>
+                    </div>
+                    <div class="cart-product-information">
+                        <div class="cart-product__seller-information">
+                            <input type="checkbox" name="" id="cart--choose-product">
+                            <div class="cart-product__favourite-badge">Favourite+</div>
+                            <i class="fa-solid fa-shop"></i>
+                            <span class="cart-product__seller-name">The Messi Store
+                            </span>
+                            <i class="fa-solid fa-comments"></i>
+                            
+                        </div>
+                    </div>
+                    <div class="cart-product__detail-information">
+                        <input type="checkbox" name="" id="cart--choose-product">
+                        <img src="https://cdn.shopify.com/s/files/1/0252/7490/8726/products/Untitleddesign_1800x1800.jpg?v=1663337983" alt="" class="cart-product__img">
+                        <h2 class="cart-product__name">Messi Hoodies & T-Shirt</h2>
+                        <div class="cart-product__catogize">Category: 
+                            <span>Black, S</span>
+                        </div>
+                        <div class="cart-product__price">€20.21</div>
+                        <div class="cart-product__quantity">
+                            <button class="cart-product__quantity-edit">-</button>
+                            <input type="text" name="" id="" class="cart-product__number" placeholder="1">
+                            <button class="cart-product__quantity-edit">+</button>
+                        </div>  
+                        <div class="cart-product__total">€20.21</div>
+                        <div class="cart-product__action">
+                            <span class="cart-product__delete">Delete</span>
+                            <a href="" class="cart-product--search-similar">Find Similar Products</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="cart-delivery">
+                    <i class="fa-solid fa-truck"></i>
+                    <p>Discount €15 minimum single shipping fee €50; Discount €25 minimum single shipping fee €100</p>
+                    <div class="cart-delivery__information">More Information</div>
+                    
+                </div> -->
+                <div class="cart-purchase">
+                    <div class="cart-voucher">
+                        <i class="fa-solid fa-ticket"></i>
+                        <p>Shopee Voucher</p>
+                        <div class="cart-voucher__select">Choose Or Input Voucher Code</div>
+                    </div>
+                    <div class="cart-product__payment">
+                        <input type="checkbox" name="" id="cart--choose-product">
+                        <ul class="cart-product__payement-list">
+                            <li class="cart-product__payment-item">Select All (3)</li>
+                            <li class="cart-product__payment-item">Delete</li>
+                            <li class="cart-product__payment-item">Save To Favourite</li>
+                            <ul class="cart-product__payment-purchase">
+                                <li class="cart-product__payment-purchase-item">Total (3 Products):</li>
+                                <li class="cart-product__payment-purchase-item">€64.14</li>
+                                <button class="cart-product__payment-btn">BUY NOW</button>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blank"></div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">CUSTOMER SERVICE</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Help Center</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">How To Buy</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">How To Sell</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Payment Methods</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Shopee Coins</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Shopee Guarantee</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Return & Refund</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">ABOUT SHOPEE</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">About Us</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Shopee Careers</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Shopee Policies</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Privacy Policy</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Shopee Blog</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Shopee Mall</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Seller Centre</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Shopee Pros</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Flash Deals</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Media Contact</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">Shopee Ambassador Programme</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">PAYMENT</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item footer-item__row">
+                                <img src="./assets/img/visa-payment.jpg" alt="" class="footer-item__img">
+                            </li>
+                            <li class="footer-item footer-item__row">
+                                <img src="./assets/img/mastercard-payment.jpg" alt="" class="footer-item__img">
+                            </li>
+                            <li class="footer-item footer-item__row">
+                                <img src="./assets/img/jcb-payment.png" alt="" class="footer-item__img">
+                            </li>
+                            <li class="footer-item footer-item__row">
+                                <img src="./assets/img/american-express-payment.png" alt="" class="footer-item__img">
+                            </li>
+                            <li class="footer-item footer-item__row">
+                                <img src="./assets/img/shopee-pay-payment.jpg" alt="" class="footer-item__img">
+                            </li>
+                        </ul>
+                        <h3 class="footer__heading">LOGISTICS</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item footer-item__row">
+                                <img src="./assets/img/shopee-express-logistics.png" alt="" class="footer-item__img">
+                            </li>
+                            <li class="footer-item footer-item__row">
+                                <img src="./assets/img/ghtk-logistics.png" alt="" class="footer-item__img">
+                            </li>
+                            <li class="footer-item footer-item__row">
+                                <img src="./assets/img/ghn-logistics.jpg" alt="" class="footer-item__img">
+                            </li>
+                            <li class="footer-item footer-item__row">
+                                <img src="./assets/img/viettel-post-logistic.png" alt="" class="footer-item__img">
+                            </li>
+                            <li class="footer-item footer-item__row">
+                                <img src="./assets/img/vietnam-post-logistics.png" alt="" class="footer-item__img">
+                            </li>
+                            <li class="footer-item footer-item__row">
+                                <img src="./assets/img/jst-express-logistics.jpg" alt="" class="footer-item__img">
+                            </li>
+                            <li class="footer-item footer-item__row">
+                                <img src="./assets/img/grab-express-logistics.png" alt="" class="footer-item__img">
+                            </li>
+                            <li class="footer-item footer-item__row">
+                                <img src="./assets/img/ninja-van-logistics.jpg" alt="" class="footer-item__img">
+                            </li>
+                            <li class="footer-item footer-item__row">
+                                <img src="./assets/img/best-logistics.jpg" alt="" class="footer-item__img">
+                            </li>
+                            <li class="footer-item footer-item__row">
+                                <img src="./assets/img/be-logistics.png" alt="" class="footer-item__img">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">FOLLOW US</h3>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fa-brands fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fa-brands fa-square-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fa-brands fa-linkedin"></i>
+                                    LinkedIn
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fa-brands fa-square-github"></i>
+                                    Github
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="footer__heading">SHOPEE APP DOWNLOADS</h3>
+                        <div class="footer__download">
+                            <img src="./assets/img/qr-code.png" alt="Download Via QR" class="footer__download-qr">
+                            <div class="footer__download-apps">
+                                <a href="" class="footer__download-app-link">
+                                    <img src="./assets/img/google-play-icon.png" alt="Google Play" class="footer__download-app-img">
+                                </a>
+                                <a href="" class="footer__download-app-link">
+                                    <img src="./assets/img/app-store-icon.png" alt="App Store" class="footer__download-app-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid__row">
+                    <div class="footer_text-container">
+                        <p class="footer__text">© 2022 Shopee. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

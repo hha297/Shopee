@@ -102,6 +102,7 @@
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
 }
+
 .header__navbar-user-item {
     
 }
@@ -549,7 +550,9 @@ input[type="checkbox"]:checked {
     width: 150px;
     color: var(--white-color);
 
-}.header__search {
+}
+
+.header__search {
     background-color: var(--white-color);
     height: 40px;
     margin-top: 12px;
@@ -568,10 +571,6 @@ input[type="checkbox"]:checked {
     bottom: -38px;
     left: -40px;
     list-style: none;
-}
-
-.header__suggestion-item {
-
 }
 
 .header__suggestion-link {
@@ -1424,3 +1423,5 @@ i.home-product-item__like-icon-fill {
     display: flex;
     margin-top: 16px;
 }
+
+
