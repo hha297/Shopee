@@ -683,6 +683,7 @@ input[type="checkbox"]:checked {
     color: rgb(180, 180, 180);
     font-weight: 400;
 }
+
 .header__cart-list-item {
     padding-left: 0;
     list-style: none;
@@ -744,6 +745,10 @@ input[type="checkbox"]:checked {
 .header__cart-item-price {
     font-size: 1.4rem;
     color: var(--primary-color);
+    margin-left: 60px;
+}
+.header__cart-item:first-child span:first-child {
+    margin-left: 44px;
 }
 
 .header__cart-item-multiply {
@@ -769,10 +774,15 @@ input[type="checkbox"]:checked {
     margin-top: -12px;
 }
 
+
 .header__cart-item-remove {
     color: var(--text-color);
     font-size: 1.4rem;
     margin-top: 0px;
+}
+
+.header__cart-item:first-child .header__cart-item-remove {
+    margin-top: -12px;
 }
 
 .header__cart-item-remove:hover {
@@ -784,6 +794,13 @@ input[type="checkbox"]:checked {
 .header__cart-view {
     float: right;
     margin: 0 12px 12px 0;
+}
+
+.header__cart-item-link {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
 }
 
 .header__search-input-wrap {
@@ -924,7 +941,7 @@ input[type="checkbox"]:checked {
     position: absolute;
     top: calc(100% + 3px);
     left: 0;
-    width: calc(100% - 16px);
+    width: calc(100%);
     background-color: var(--white-color);
     border-radius: 3px;
     box-shadow: 0 1px 5px #999;
