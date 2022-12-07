@@ -707,12 +707,14 @@ input[type="checkbox"]:checked {
     object-fit: contain;
     margin: 12px;
     border: 0.5px solid var(--border-color);
+    text-decoration: none;
 
 }
 
 .header__cart-item-info {
     width: 100%;
     margin-right: 12px;
+    margin-left: -4px;
 }
 
 .header__cart-item-head {
@@ -736,6 +738,7 @@ input[type="checkbox"]:checked {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
+    margin-left: -4px;
 }
 
 /* .header__cart-item-price-wrap {
